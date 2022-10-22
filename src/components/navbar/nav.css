@@ -1,0 +1,56 @@
+.navbar{
+    height: 70px;
+    width: 100vw;
+    box-shadow: rgba(163, 163, 163, 0.35) 0px 5px 15px;
+}
+.changer{
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(0, 0, 0, 0.418);
+}
+.logo{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 25px;
+    height: 25px;
+
+}
+.toggletray{
+    animation-name: tgltray;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes tgltray {
+    0%   { left:100vw; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+.home,.about,.skill,.projects,.contact,.res{
+    cursor: pointer;
+    position: relative;
+    /* color: rgb(78, 0, 0); */
+}
+.eff::after{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    content: "";
+    width: 0px;
+    transition: all 0.2s ease;
+    height: 2px;
+    background-color: blue;
+}
+.eff:hover:after{
+    width: 20px;
+    left: 35%;
+}
+.eff:hover{
+    color:rgb(61, 89, 255);
+    cursor: pointer;
+}
