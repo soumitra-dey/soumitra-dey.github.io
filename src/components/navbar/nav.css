@@ -18,7 +18,7 @@
     left: 7px;
     width: 25px;
     height: 25px;
-
+    /* color: rgb(99, 110, 252); */
 }
 .toggletray{
     animation-name: tgltray;
@@ -53,4 +53,13 @@
 .eff:hover{
     color:rgb(61, 89, 255);
     cursor: pointer;
+}
+
+.sign{
+    position: relative;
+    text-shadow: 0 0 10px #00b3ff
+                0 0 20px #00b3ff
+                0 0 40px #00b3ff
+                0 0 80px #00b3ff
+                0 0 120px #00b3ff;
 }

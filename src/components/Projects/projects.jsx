@@ -13,7 +13,10 @@ export default function Projects(){
             <br/>
             <br/>
             <br/>
-            <Text fontFamily="poppins" fontSize={{base:"40px",md:"55px"}} style={theme?{color:"rgb(0, 99, 99)"}:{color:"rgb(180, 253, 192)"}} as="b">Projects</Text>
+            <Text fontFamily="Courgette" fontSize={{base:"40px",md:"55px"}} style={theme?{color:"rgb(0, 99, 99)"}:{color:"rgb(180, 253, 192)"}} as="b">My Creative <span style={{color:"red"}}>Project</span> Section</Text>
+            <br/>
+            <br/>
+            <br/>
             <Grid gap="20px" fontFamily="Open Sans" templateColumns={{base:"repeat(1, 1fr)", md:"repeat(2, 1fr)", lg:"repeat(3, 1fr)"}} margin="auto" w="90%" style={theme?{color:"rgb(78, 0, 0)"}:{color:"aqua"}}>
                 <Flex textAlign="left" padding="20px" flexDirection="column" h="100%" boxShadow='outline' _hover={{boxShadow:'dark-lg'}} borderRadius="20px">
                     <Text textAlign="center" as="b" fontSize="20px" style={theme?{color:"blue"}:{color:"yellow"}}>Buffer Clone</Text>

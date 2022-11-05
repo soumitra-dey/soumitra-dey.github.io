@@ -5,6 +5,7 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import Skill from './components/skill/skill';
 import Projects from './components/Projects/projects';
+import Contacts from './components/Contacts/Contact';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Skill/>
       <Projects/>
+      <Contacts/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
