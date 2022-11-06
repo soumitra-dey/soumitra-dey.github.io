@@ -4,6 +4,8 @@ import { ThemeContext } from "../../context/themecontext";
 import "./nav.css"
 import { useState } from "react";
 import {HashLink as Link} from "react-router-hash-link"
+import {AiFillHome} from "react-icons/ai"
+
 
 function Nav(){
     const {theme,settheme}=React.useContext(ThemeContext)
