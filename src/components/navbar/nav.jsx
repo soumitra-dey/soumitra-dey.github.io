@@ -4,7 +4,6 @@ import { ThemeContext } from "../../context/themecontext";
 import "./nav.css"
 import { useState } from "react";
 import {HashLink as Link} from "react-router-hash-link"
-import {AiFillHome} from "react-icons/ai"
 
 
 function Nav(){
@@ -31,7 +30,7 @@ function Nav(){
             </Box>
             <Flex className="sign" fontWeight="500">
                 <Text fontFamily="poppins" fontSize={{base:"25px", md:"35px"}} style={theme?{color:"rgb(15, 22, 36)"}:{color:"#fff"}}>{te1}</Text>
-                <Text fontFamily="Agustina" className="mdl" fontSize={{base:"25px", md:"35px"}} style={theme?{color:"rgb(15, 22, 36)"}:{color:"#fff"}}>Soumitra Dey</Text>
+                <Text fontFamily="Agustina Regular" className="mdl" fontSize={{base:"25px", md:"35px"}} style={theme?{color:"rgb(15, 22, 36)"}:{color:"#fff"}}>Soumitra Dey</Text>
                 <Text fontFamily="poppins" fontSize={{base:"25px", md:"35px"}} style={theme?{color:"rgb(15, 22, 36)"}:{color:"#fff"}}>{te2}</Text>
             </Flex>
             <Flex display={{base:"none",md:"none", lg:"flex"}} style={theme?{fontFamily:"preconnect", fontWeight:"700",fontSize:"22px", color:"black"}:{fontFamily:"preconnect", fontWeight:"700",fontSize:"22px", color:"white"}} gap={{md:"20px",lg:"30px"}} mr={{md:"10%",lg:"15%"}}>
@@ -40,7 +39,7 @@ function Nav(){
                 <Link to="#skill" smooth className="skill eff">Skill</Link>
                 <Link to="#projects" smooth className="projects eff">Projects</Link>
                 <Link to="#contacts" smooth className="contact eff">Contact</Link>
-                <a className="res eff" href="https://drive.google.com/file/d/1L1lfsrKExeigDmQMzzPnD5CCVNfG9agn/view?usp=sharing" target="_blank">Resume</a>
+                <a className="res eff" href="https://drive.google.com/file/d/1L1lfsrKExeigDmQMzzPnD5CCVNfG9agn/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
             </Flex>
             <Box display={{base:"block",md:"block", lg:"none"}} mr="10%">
                 <Flex flexDirection="column" gap="3px" onClick={opentoggle}>
@@ -57,7 +56,7 @@ function Nav(){
                         <Link to="#skill" smooth>Skill</Link>
                         <Link to="#projects" smooth>Projects</Link>
                         <Link to="#contacts" smooth>Contact</Link>
-                        <a className="res eff" href="https://drive.google.com/file/d/1L1lfsrKExeigDmQMzzPnD5CCVNfG9agn/view?usp=sharing" target="_blank">Resume</a>
+                        <a className="res eff" href="https://drive.google.com/file/d/1L1lfsrKExeigDmQMzzPnD5CCVNfG9agn/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
 
                     </Flex>
                 </Flex>

@@ -29,10 +29,10 @@ function Home(){
                             words={["Web Developer.", "Full Stack Web Developer.", "MERN Stack Developer"]}
                         />
                     </Text>
-                    <a href={resume} download="Soumitra-Dey-Resume" target='_blank'><Button className="resume" bg="">Resume</Button></a>
+                    <a href={resume} download="Soumitra-Dey-Resume" target='_blank' rel="noreferrer"><Button className="resume" bg="">Resume</Button></a>
                     <Flex h="100px" alignItems="center" gap="20px">
-                        <a href="https://github.com/soumitra-dey" target="_blank"><Image src="https://i.ibb.co/Zg4Ywks/icons8-github.gif" w="50px" borderRadius="50%"/></a>
-                        <a href="https://www.linkedin.com/in/soumitra-dey-27baa1211/" target="_blank"><Image src="https://i.ibb.co/R2Z4YMK/icons8-linkedin-circled.gif" w="50px" borderRadius="50%"/></a>
+                        <a href="https://github.com/soumitra-dey" target="_blank" rel="noreferrer"><Image src="https://i.ibb.co/Zg4Ywks/icons8-github.gif" w="50px" borderRadius="50%"/></a>
+                        <a href="https://www.linkedin.com/in/soumitra-dey-27baa1211/" target="_blank" rel="noreferrer"><Image src="https://i.ibb.co/R2Z4YMK/icons8-linkedin-circled.gif" w="50px" borderRadius="50%"/></a>
                     </Flex>
                 </Box>
                 <Box borderRadius="50%" w={{base:"80%", md:"350px", lg:"350px"}} p="5px" mt={{base:"30px",md:"0px"}} style={theme?{border:"5px solid"}:{border:"5px solid rgb(177, 177, 177)"}}>
