@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d1c112ae.css",
-    "main.js": "/static/js/main.723f0d86.js",
+    "main.js": "/static/js/main.1d589f7b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Soumitra-Dey-Resume.pdf": "/static/media/Soumitra-Dey-Resume.072c9a864179d01ec168.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "index.html": "/index.html",
     "main.d1c112ae.css.map": "/static/css/main.d1c112ae.css.map",
-    "main.723f0d86.js.map": "/static/js/main.723f0d86.js.map",
+    "main.1d589f7b.js.map": "/static/js/main.1d589f7b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1c112ae.css",
-    "static/js/main.723f0d86.js"
+    "static/js/main.1d589f7b.js"
   ]
 }
