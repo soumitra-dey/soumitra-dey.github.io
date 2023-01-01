@@ -41,7 +41,7 @@ export default function Projects(){
                         <Image src="https://i.ibb.co/SXY3rsR/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png" w="30px"/>
                     </Flex>
                     <Flex h="100px" alignItems="center" gap="20px">
-                        <a href="https://github.com/soumitra-dey/Buffer-Clone" target="_blank"><Image src="https://i.ibb.co/Zg4Ywks/icons8-github.gif" w="35px" borderRadius="50%"/></a>
+                        <a href="https://github.com/furqan5921/Fitfinity" target="_blank"><Image src="https://i.ibb.co/Zg4Ywks/icons8-github.gif" w="35px" borderRadius="50%"/></a>
                         <a href="https://fitfinity-eight.vercel.app/" target="_blank"><Image src="https://i.ibb.co/HxsQ1RK/icons8-web-64.png" backgroundColor="white" padding={.5} w="35px" borderRadius="50%"/></a>
                     </Flex>
                 </Flex>
@@ -174,7 +174,7 @@ export default function Projects(){
                         <Image src="https://i.ibb.co/CQxSRWx/icons8-javascript-96.png" w="30px"/>
                     </Flex>
                     <Flex h="100px" alignItems="center" gap="20px">
-                        <a href="https://github.com/masai-course/soumitra_fw20_0320/tree/master/unit-3/sprint-2/day-4/assignments/fetch-2" target="_blank"><Image src="https://i.ibb.co/Zg4Ywks/icons8-github.gif" w="35px" borderRadius="50%"/></a>
+                        <a href="https://github.com/soumitra-dey/weather-app" target="_blank"><Image src="https://i.ibb.co/Zg4Ywks/icons8-github.gif" w="35px" borderRadius="50%"/></a>
                         <a href="https://weather-app-soumitra.netlify.app/" target="_blank"><Image src="https://i.ibb.co/HxsQ1RK/icons8-web-64.png" backgroundColor="white" padding={.5} w="35px" borderRadius="50%"/></a>
                     </Flex>
                 </Flex>
