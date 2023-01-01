@@ -67,8 +67,19 @@ export default function Skill(){
                             scale={1.05}
                             borderRadius="10px">
                         <Flex textAlign="center" flexDirection="column" alignItems="center" justifyContent="center" style={theme?{background:"rgba(0,0,0,0.2)", backdropFilter:"blur(5px)"}:{background:"rgba(200,200,200,0.1)", backdropFilter:"blur(5px)", color:"rgb(247, 237, 181)"}} borderRadius="10px">
-                            <Image src="https://i.ibb.co/6P603Qj/icons8-node-js-144.png" w="144px" alt="" />
-                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">NODE JS</Text>
+                            <Image src="https://i.ibb.co/YZTh61R/icons8-redux-144.png" w="144px" alt="" />
+                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">REDUX</Text>
+                        </Flex>
+                    </Tilt>
+                    <Tilt className="parallax-effect-glare-scale"
+                            perspective={500}
+                            glareEnable={true}
+                            glareMaxOpacity={0.45}
+                            scale={1.05}
+                            borderRadius="10px">
+                        <Flex textAlign="center" flexDirection="column" alignItems="center" justifyContent="center" style={theme?{background:"rgba(0,0,0,0.2)", backdropFilter:"blur(5px)"}:{background:"rgba(200,200,200,0.1)", backdropFilter:"blur(5px)", color:"rgb(247, 237, 181)"}} borderRadius="10px">
+                            <Image src="https://i.ibb.co/DDxhgKx/icons8-chakra-ui-144.png" w="144px" alt="" />
+                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">CHAKRA UI</Text>
                         </Flex>
                     </Tilt>
                     <Tilt className="parallax-effect-glare-scale"
@@ -89,8 +100,8 @@ export default function Skill(){
                             scale={1.05}
                             borderRadius="10px">
                         <Flex textAlign="center" flexDirection="column" alignItems="center" justifyContent="center" style={theme?{background:"rgba(0,0,0,0.2)", backdropFilter:"blur(5px)"}:{background:"rgba(200,200,200,0.1)", backdropFilter:"blur(5px)", color:"rgb(247, 237, 181)"}} borderRadius="10px">
-                            <Image src="https://i.ibb.co/DDxhgKx/icons8-chakra-ui-144.png" w="144px" alt="" />
-                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">CHAKRA UI</Text>
+                            <Image src="https://i.ibb.co/6P603Qj/icons8-node-js-144.png" w="144px" alt="" />
+                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">NODE JS</Text>
                         </Flex>
                     </Tilt>
                     <Tilt className="parallax-effect-glare-scale"
@@ -113,28 +124,6 @@ export default function Skill(){
                         <Flex textAlign="center" flexDirection="column" alignItems="center" justifyContent="center" style={theme?{background:"rgba(0,0,0,0.2)", backdropFilter:"blur(5px)"}:{background:"rgba(200,200,200,0.1)", backdropFilter:"blur(5px)", color:"rgb(247, 237, 181)"}} borderRadius="10px">
                             <Image src="https://i.ibb.co/bQBX4sw/icons8-express-js-150.png" w="144px" alt="" />
                             <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">EXPRESS</Text>
-                        </Flex>
-                    </Tilt>
-                    <Tilt className="parallax-effect-glare-scale"
-                            perspective={500}
-                            glareEnable={true}
-                            glareMaxOpacity={0.45}
-                            scale={1.05}
-                            borderRadius="10px">
-                        <Flex textAlign="center" flexDirection="column" alignItems="center" justifyContent="center" style={theme?{background:"rgba(0,0,0,0.2)", backdropFilter:"blur(5px)"}:{background:"rgba(200,200,200,0.1)", backdropFilter:"blur(5px)", color:"rgb(247, 237, 181)"}} borderRadius="10px">
-                            <Image src="https://i.ibb.co/YZTh61R/icons8-redux-144.png" w="144px" alt="" />
-                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">REDUX</Text>
-                        </Flex>
-                    </Tilt>
-                    <Tilt className="parallax-effect-glare-scale"
-                            perspective={500}
-                            glareEnable={true}
-                            glareMaxOpacity={0.45}
-                            scale={1.05}
-                            borderRadius="10px">
-                        <Flex textAlign="center" flexDirection="column" alignItems="center" justifyContent="center" style={theme?{background:"rgba(0,0,0,0.2)", backdropFilter:"blur(5px)"}:{background:"rgba(200,200,200,0.1)", backdropFilter:"blur(5px)", color:"rgb(247, 237, 181)"}} borderRadius="10px">
-                            <Image src="https://i.ibb.co/mNNJbHP/icons8-amazon-web-services-144.png" w="144px" alt="" />
-                            <Text fontFamily="poppins" fontSize="25px" color="rgb(255, 243, 70)" as="b">AWS</Text>
                         </Flex>
                     </Tilt>
                     <Tilt className="parallax-effect-glare-scale"
